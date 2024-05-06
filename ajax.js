@@ -28,7 +28,7 @@ function fetchData(){
       }
     }
         // 3. リクエストを送信
-        request.open("GET", "http://localhost:8080/ajax.json"); //-- 3-1
+        request.open("GET", "./ajax.json"); //-- 3-1
         request.responseType = "text"; //-- jsonファイルのレスポンスタイプを指定？
         request.send(null); //-- 3-3 //
     } 
